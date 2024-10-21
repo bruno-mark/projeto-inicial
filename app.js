@@ -11,9 +11,9 @@ while (chute != numeroSecreto){
         break;        
     } else {
         if (numeroSecreto > chute){
-            alert(`O número secreto é maior que ${chute}`);
+            alert(`Que pena, você errou. O número secreto é maior que ${chute}`);
         } else {
-            alert(`O número secreto é menor que ${chute}`);
+            alert(`Que pena, você errou. O número secreto é menor que ${chute}`);
         }
         chute = prompt(`Escolha um número entre 1 e ${limite}`);
     }
